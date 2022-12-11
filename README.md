@@ -2,12 +2,11 @@
 
 ## Usage:
   
-Checkouts sources:
+Checkouts git modules:
 ```
-> make develop
+> make init
 ```
-Temporarily patches flake.nix to
-use local sources while running build
+Builds using local submodules:
 ```
-> make dev-build
+> make build
 ```

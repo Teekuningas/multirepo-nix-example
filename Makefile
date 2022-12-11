@@ -1,7 +1,13 @@
+.PHONY: init
+init:
+	git submodule update --recursive --init
+
 .PHONY: build
 build:
-	git submodule update --recursive --init
-	nix build .?submodules=1
+	nix build \
+		--update-input packageA \
+		--update-input packageB \
+		.?submodules=1
 
 .PHONY: start
 start:
