@@ -1,15 +1,9 @@
-.PHONY: dev-build
-dev-build:
-	bash build.sh
-
 .PHONY: build
 build:
-	nix build
+	git submodule update --recursive --init
+	nix build .?submodules=1
 
 .PHONY: start
 start:
 	bash ./result/bin/hello
 
-.PHONY: develop
-develop:
-	bash develop.sh

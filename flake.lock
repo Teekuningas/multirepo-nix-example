@@ -96,17 +96,14 @@
         "nixpkgs": "nixpkgs_2"
       },
       "locked": {
-        "lastModified": 1670766507,
+        "lastModified": 1,
         "narHash": "sha256-FYoUDl2KtdLv8ea5JqDUYz1AVTlAZ58qydlBSBnLIaw=",
-        "owner": "Teekuningas",
-        "repo": "multirepo-nix-example-package-A",
-        "rev": "ba0660cbddb0dee3a7d3f5696efeb8a36b7d1e87",
-        "type": "github"
+        "path": "./packages/multirepo-nix-example-package-A",
+        "type": "path"
       },
       "original": {
-        "owner": "Teekuningas",
-        "repo": "multirepo-nix-example-package-A",
-        "type": "github"
+        "path": "./packages/multirepo-nix-example-package-A",
+        "type": "path"
       }
     },
     "packageB": {
@@ -115,17 +112,14 @@
         "nixpkgs": "nixpkgs_3"
       },
       "locked": {
-        "lastModified": 1670766590,
+        "lastModified": 1,
         "narHash": "sha256-ymQfxvPelTOxyOmQ07O4TyzCUTiODMHBM13c1+DvB4g=",
-        "owner": "Teekuningas",
-        "repo": "multirepo-nix-example-package-B",
-        "rev": "4669504c25414243cb00da9fb7cf59e3ee150567",
-        "type": "github"
+        "path": "./packages/multirepo-nix-example-package-B",
+        "type": "path"
       },
       "original": {
-        "owner": "Teekuningas",
-        "repo": "multirepo-nix-example-package-B",
-        "type": "github"
+        "path": "./packages/multirepo-nix-example-package-B",
+        "type": "path"
       }
     },
     "root": {

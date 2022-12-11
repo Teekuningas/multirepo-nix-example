@@ -2,8 +2,8 @@
   description = "Multirepo example";
   inputs = {
     flake-utils.url = "github:numtide/flake-utils";
-    packageA.url = "github:Teekuningas/multirepo-nix-example-package-A";
-    packageB.url = "github:Teekuningas/multirepo-nix-example-package-B";
+    packageA.url = "path:./packages/multirepo-nix-example-package-A";
+    packageB.url = "path:./packages/multirepo-nix-example-package-B";
     nixpkgs.url = "github:NixOS/nixpkgs";
   };
   outputs = { self, nixpkgs, flake-utils, packageA, packageB }:

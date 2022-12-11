@@ -1,0 +1,6 @@
+[submodule "packages/multirepo-nix-example-package-A"]
+	path = packages/multirepo-nix-example-package-A
+	url = https://github.com/Teekuningas/multirepo-nix-example-package-A
+[submodule "packages/multirepo-nix-example-package-B"]
+	path = packages/multirepo-nix-example-package-B
+	url = https://github.com/Teekuningas/multirepo-nix-example-package-B
